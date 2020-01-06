@@ -1,0 +1,31 @@
+#layout{
+    -fx-background-image: url(asset/background.jpg);
+}
+ 
+.label{
+-fx-font-weight: bold;
+-fx-text-fill: #333333;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+ 
+#grid{
+    -fx-background-color:linear-gradient(whitesmoke,lightgray);
+    -fx-grid-lines-visible: false;
+   
+}
+ 
+.button{
+    -fx-text-fill: gray;
+    -fx-background-color: linear-gradient(whitesmoke, lightgray);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-opacity: 50;
+   
+}
+ 
+.separator{
+    -fx-background:black;
+}
+#teks{
+    -fx-background-color: whitesmoke;
+}
